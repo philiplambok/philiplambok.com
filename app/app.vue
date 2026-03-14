@@ -101,12 +101,12 @@ a:visited {
 }
 
 .site-nav a {
-  color: #1862c5;
+  color: #0074D9;
   text-decoration: underline;
 }
 
 .site-nav a:hover {
-  color: #0f4a96;
+  color: #0041A6;
 }
 
 .sep {
@@ -163,7 +163,7 @@ a:visited {
 }
 
 .prose code {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Ubuntu Mono', monospace;
   font-size: 0.9em;
   background: #f4f4f4;
   padding: 0.1em 0.35em;
@@ -193,7 +193,7 @@ a:visited {
 }
 
 .prose a {
-  color: #1862c5;
+  color: #0074D9;
   text-decoration: underline;
 }
 
