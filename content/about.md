@@ -10,7 +10,7 @@ Hello, welcome to my blog.
 
 I'm Philip. I work as a software engineer who lives in Indonesia.
 
-I like writing. I've been writing in my old blog using [Github page](https://philiplambok.github.io/). I got married in 2023, the same year I stopped writing on my old blog. So you know what that means.
+I like writing. I've been writing in [my old blog](https://philiplambok.github.io/) using Github page. I got married in 2023, the same year I stopped writing on my old blog. So you know what that means.
 
 After my marriage, I was still writing. But the place was different. I'm writing in my internal Google Group mailing list, where my wife is the only person who reads it. Now, it's time to continue my habit again: to write in public.
 
