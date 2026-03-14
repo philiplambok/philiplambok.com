@@ -1,10 +1,8 @@
 ---
 
-title: About
+title: about me
 
 ---
-
-# About
 
 Hello, welcome to my blog.
 

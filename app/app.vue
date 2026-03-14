@@ -10,7 +10,7 @@
       <nav class="site-nav">
         <NuxtLink to="/">blog</NuxtLink>
         <span class="sep">|</span>
-        <NuxtLink to="/about">about</NuxtLink>
+        <NuxtLink to="/about-me">about me</NuxtLink>
       </nav>
     </header>
 

@@ -2,7 +2,7 @@
 useHead({ title: 'slice of life blog | About Me' })
 
 const { data: page } = await useAsyncData('about', () => {
-  return queryCollection('content').path('/about').first()
+  return queryCollection('content').path('/about-me').first()
 })
 </script>
 
