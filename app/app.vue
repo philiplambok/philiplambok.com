@@ -141,6 +141,11 @@ a:visited {
   margin-bottom: 0.5rem;
 }
 
+.prose h2 a {
+  color: #000;
+  text-decoration: none;
+}
+
 .prose p {
   margin-bottom: 1.2rem;
 }
