@@ -38,18 +38,19 @@ html {
 }
 
 body {
-  font-family: Charter, 'Bitstream Charter', 'Sitka Text', Cambria, serif;
+  font-family: sans-serif;
+  font-style: normal;
   color: #000;
   background: #fff;
-  line-height: 1.5;
+  line-height: 1.6;
 }
 
 a {
-  color: #1862c5;
+  color: #0074D9;
 }
 
-a:hover {
-  color: #0f4a96;
+a:visited {
+  color: #0041A6;
 }
 
 .top-bar {
@@ -89,11 +90,10 @@ a:hover {
 }
 
 .logo-text {
-  font-family: 'Courier New', Courier, monospace;
-  font-size: 1.7rem;
-  font-weight: bold;
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 2rem;
+  font-weight: 900;
   color: #000;
-  letter-spacing: -0.01em;
 }
 
 .site-nav {
@@ -211,15 +211,15 @@ a:hover {
 
 @media (max-width: 480px) {
   html {
-    font-size: 16px;
+    font-size: 19px;
   }
 
   .site {
-    padding: 1rem 1rem 2rem;
+    padding: 1rem 1.2rem 2rem;
   }
 
   .logo-text {
-    font-size: 1.3rem;
+    font-size: 1.8rem;
   }
 }
 </style>

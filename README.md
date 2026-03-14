@@ -1,75 +1,41 @@
-# Nuxt Content Starter
+# slice of life blog
 
-Look at the [Nuxt Content documentation](https://content.nuxt.com) to learn more.
+Personal blog built with Nuxt 4 and Nuxt Content.
 
 ## Setup
 
-Make sure to install dependencies:
-
 ```bash
-# npm
-npm install
-
-# pnpm
 pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
 ```
 
-## Development Server
-
-Start the development server on `http://localhost:3000`:
+## Development
 
 ```bash
-# npm
-npm run dev
-
-# pnpm
 pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
 ```
 
-## Production
+## Deploy
 
-Build the application for production:
+Requires `docker login` on both your local machine and the server.
 
 ```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
+DOCKER_REGISTRY=yourusername/philiplambok-com DEPLOY_HOST=user@your-server-ip ./deploy.sh
 ```
 
-Locally preview production build:
+To use a custom port (default is 3000):
 
 ```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
+DOCKER_REGISTRY=yourusername/philiplambok-com DEPLOY_HOST=user@your-server-ip DEPLOY_PORT=8080 ./deploy.sh
 ```
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+This will:
+1. Build the Docker image for linux/amd64
+2. Push it to the Docker registry
+3. SSH into the server, pull the image, and restart the container
+
+### Manual Docker build
+
+```bash
+docker build --platform linux/amd64 -t yourusername/philiplambok-com .
+docker push yourusername/philiplambok-com
+```
