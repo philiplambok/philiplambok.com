@@ -11,7 +11,7 @@ echo "==> Building Nuxt app..."
 pnpm build
 
 echo "==> Building Docker image for linux/amd64..."
-docker build --platform linux/amd64 -t "$TAG" .
+docker build --no-cache --platform linux/amd64 -t "$TAG" .
 
 echo "==> Pushing image to registry..."
 docker push "$TAG"
