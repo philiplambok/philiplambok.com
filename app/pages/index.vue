@@ -1,4 +1,6 @@
 <script setup lang="ts">
+useHead({ title: 'slice of life blog | Blog' })
+
 const { data: posts } = await useAsyncData('blog-posts', () => {
   return queryCollection('blog').order('date', 'DESC').all()
 })
