@@ -47,13 +47,13 @@ Arguments rarely produce true winners. People are more likely to change when the
 
 ## 4. Tips to be a good leader
 
-Starting with sincere praise and appreciation will open the other person's heart. Mistakes can be corrected without hurting self-esteem.
-1. Start with sincere praise and appreciation.
-2. Point out mistakes indirectly.
-3. Admit your own mistakes before criticizing others.
-4. Ask questions, not orders.
-5. Let others save face.
-6. Praise every progress, no matter how small.
-7. Give others a high reputation to achieve.
-8. Encourage and make mistakes easy to correct.
-9. Make others happy to do what we propose.
+Begin with sincere praise and appreciation. This helps the other person feel valued. Then mistakes can be corrected in a way that does not hurt their confidence.
+1.	Start with sincere praise and appreciation.
+2.	Point out mistakes in a gentle and indirect way.
+3.	Admit your own mistakes before correcting others.
+4.	Ask questions instead of giving orders.
+5.	Help others keep their dignity and not feel embarrassed.
+6.	Praise every improvement, even small progress.
+7.	Speak positively so others feel trusted and capable.
+8.	Encourage them and make mistakes feel easier to fix.
+9.	Help others feel happy and willing to do what we suggest.

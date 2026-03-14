@@ -16,9 +16,7 @@ I want to tell a little story of my life. In high school, I liked blogging. I st
 
 I've had different hobbies in my life. But now my hobby is reading nonfiction books. The real question is, is that a hobby? I'm not sure.
 
-I want to use this blog as the platform for my writing, exactly what people expect from a blog. I want my blog to be a place for human-to-human discussion. So I try not to use AI to rewrite or edit my writing into their style.
-
-I know my style is terrible. But I found more joy in reading my own style than theirs. It feels personal to me, and it motivates me to write more. And I hope you enjoy it as you read it.
+I want to use this blog as the platform for my writing, exactly what people expect from a blog.
 
 Thank you for your time.
 
