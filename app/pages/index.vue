@@ -8,12 +8,6 @@ const { data: posts } = await useAsyncData('blog-posts', () => {
 
 <template>
   <div class="blog-list">
-    <p class="intro">
-      If you have comments, questions, or feedback, you can email
-      <a href="mailto:philiplambok@gmail.com">my personal email</a>.
-      There is also an <NuxtLink to="/feed.xml">RSS feed</NuxtLink>.
-    </p>
-
     <ul class="post-list">
       <li v-for="post in posts" :key="post.path">
         {{ post.date }}: <NuxtLink :to="post.path">{{ post.title }}</NuxtLink>
