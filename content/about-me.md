@@ -1,23 +1,19 @@
 ---
-
 title: about me
-
 ---
 
-Hello, welcome to my blog.
 
-I'm Philip. I work as a software engineer who lives in Indonesia.
+Hello,
 
-I like writing. I've been writing in [my old blog](https://philiplambok.github.io/) using Github page. I got married in 2023, the same year I stopped writing on my old blog. So you know what that means.
+I'm Philip Lambok, and welcome to my blog!
 
-After my marriage, I was still writing. But the place was different. I'm writing in my internal Google Group mailing list, where my wife is the only person who reads it. Now, it's time to continue my habit again: to write in public.
-
-I want to tell a little story of my life. In high school, I liked blogging. I started blogging on [Blogger](https://www.blogger.com/about/?bpli=1). I learned HTML and a little bit of CSS. I tried to design my blog by copying and pasting from random blogs on the internet. It was fun for me at that time. That feeling led me to enroll in a computer science program. I wanted to learn how to build a website, and I created my own. Long story short, after 7 years of graduating from college, I finally built one.
-
-I've had different hobbies in my life. But now my hobby is reading nonfiction books. The real question is, is that a hobby? I'm not sure.
-
-I want to use this blog as the platform for my writing, exactly what people expect from a blog.
-
-Thank you for your time.
-
-See you.
+- I like writing. 
+- Before buying the philiplambok.com domain, I wrote on [GitHub Pages](https://philiplambok.github.io/).
+- I believe in [Leslie Lamport’s](https://www.youtube.com/watch?v=-4Yp3j_jk8Q&t=185s) idea: “To think, you have to write. If you’re thinking without writing, you only think you’re thinking.” Even in this AI era, I still believe that.
+- I started blogging in high school using Blogspot because I didn’t know how to build my own website. That’s one of the reasons I studied computer science in college: I wanted to create a website for myself. Now, after working professionally as a software engineer for 7 years, I’ve achieved that dream.
+- The name “slice of life” is inspired by the anime genre. In anime, slice of life is a genre that focuses on everyday life. It’s just someone’s life story, without dramatic adventure.
+- This is my personal blog, so I’ll write about any topic that interests me, not only programming.
+- In my free time, I read books. I track my reading on [Goodreads](https://www.goodreads.com/).
+- I’m a citizen of the world, and I believe God exists.
+- If you ask me about the future of programmer jobs in the AI era, I don’t know. Maybe one day there will be no programmer jobs in the future.
+- Thank you for reading.
