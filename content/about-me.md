@@ -13,6 +13,6 @@ I’m Philip Lambok, and here are a few random things about me:
 - I work as a software engineer.
 - I started blogging in high school using [Blogger](https://www.blogger.com) because I didn’t know how to build my own website. That’s one of the reasons I studied computer science in college: I wanted to create a website for myself. After working professionally as a software engineer for 7 years, I’ve achieved that dream.
 - The name “slice of life” is inspired by the anime genre. In anime, slice of life focuses on everyday life. So this blog is just a small part of someone’s life story, without dramatic adventure.
-- In my free time, I read books. I track my reading on [Goodreads](https://www.goodreads.com/).
+- In my free time, I read books. I track my reading on [Goodreads](https://www.goodreads.com/user/show/43867310-philip-lambok).
 - I’m a citizen of the world, and I’m a Christian.
 - Thank you for reading.
