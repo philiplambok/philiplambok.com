@@ -3,9 +3,9 @@ title: about me
 ---
 
 
-Hello,
+Hello, welcome to my blog!
 
-I'm Philip Lambok, and welcome to my blog!
+I’m Philip Lambok, and here are a few random things about me:
 
 - I like writing. 
 - Before buying the philiplambok.com domain, I wrote on [GitHub Pages](https://philiplambok.github.io/).
