@@ -14,4 +14,5 @@ I’m Philip Lambok, and here are a few random things about me:
 - I started blogging in high school using [Blogger](https://www.blogger.com) because I didn’t know how to build my own website. That’s one of the reasons I studied computer science in college: I wanted to create a website for myself. After working professionally as a software engineer for 7 years, I’ve achieved that dream.
 - In my free time, I read books. I track my reading on [Goodreads](https://www.goodreads.com/user/show/43867310-philip-lambok).
 - I’m a citizen of the world, and I’m a Christian.
-- Thank you for reading.
+
+Thank you for reading.
