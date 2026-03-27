@@ -1,16 +1,11 @@
 <template>
-  <div class="top-bar"></div>
   <div class="site">
     <header class="site-header">
-      <NuxtLink to="/" class="logo-link">
-        <div class="logo-box">
-          <span class="logo-text">slice of life blog</span>
-        </div>
-      </NuxtLink>
+      <NuxtLink to="/" class="site-title">Philip Lambok</NuxtLink>
       <nav class="site-nav">
-        <NuxtLink to="/">blog</NuxtLink>
+        <NuxtLink to="/">Blog</NuxtLink>
         <span class="sep">|</span>
-        <NuxtLink to="/about-me">about me</NuxtLink>
+        <NuxtLink to="/about-me">About Me</NuxtLink>
       </nav>
     </header>
 
@@ -25,6 +20,8 @@
 </template>
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,300..900;1,8..60,300..900&display=swap');
+
 *,
 *::before,
 *::after {
@@ -34,84 +31,82 @@
 }
 
 html {
-  font-size: 19px;
+  font-size: 18px;
 }
 
 body {
-  font-family: sans-serif;
+  font-family: 'Source Serif 4', Georgia, 'Times New Roman', serif;
   font-style: normal;
-  color: #000;
+  color: #111;
   background: #fff;
-  line-height: 1.6;
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 a {
-  color: #0074D9;
+  color: #1a0dab;
+  text-decoration: underline;
 }
 
 a:visited {
-  color: #0041A6;
+  color: #1a0dab;
 }
 
-.top-bar {
-  height: 6px;
-  background: #333;
-  width: 100%;
+a:hover {
+  color: #000;
 }
 
 .site {
   max-width: 640px;
   margin: 0 auto;
-  padding: 1.2rem 1.5rem 3rem;
+  padding: 2rem 1.5rem 3rem;
 }
 
 .site-header {
-  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
   margin-bottom: 2.5rem;
+  padding-bottom: 0.5rem;
 }
 
-.logo-link {
+.site-title {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #111;
   text-decoration: none;
-  display: inline-block;
+  letter-spacing: -0.01em;
 }
 
-.logo-box {
-  display: inline-block;
-  background: #F5A9B8;
-  border: solid black;
-  padding: 1em 2em;
-  box-shadow: 6px 6px 0px #5BCEFA;
-  margin-bottom: 0.8rem;
-  transition: transform 0.2s ease;
+.site-title:visited {
+  color: #111;
 }
 
-.logo-link:hover .logo-box {
-  transform: rotate(0deg);
-}
-
-.logo-text {
-  font-family: 'Ubuntu Mono', monospace;
-  font-size: 2rem;
-  font-weight: 900;
-  color: #000;
+.site-title:hover {
+  color: #444;
 }
 
 .site-nav {
-  font-size: 1rem;
+  font-size: 0.95rem;
 }
 
 .site-nav a {
-  color: #0074D9;
+  color: #111;
   text-decoration: underline;
 }
 
+.site-nav a:visited {
+  color: #111;
+}
+
 .site-nav a:hover {
-  color: #0041A6;
+  color: #555;
 }
 
 .sep {
-  margin: 0 0.3rem;
-  color: #000;
+  margin: 0 0.35rem;
+  color: #999;
 }
 
 .site-main {
@@ -120,29 +115,30 @@ a:visited {
 
 .site-footer {
   margin-top: 4rem;
-  padding-top: 1rem;
-  border-top: 1px solid #ddd;
+  padding-top: 1.2rem;
+  text-align: center;
   font-size: 0.85rem;
-  color: #666;
+  color: #777;
 }
 
 /* Prose styling for content pages */
 .prose h1 {
-  font-size: 1.8rem;
-  font-weight: bold;
-  margin-bottom: 0.6rem;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 0.3rem;
   line-height: 1.3;
+  letter-spacing: -0.02em;
 }
 
 .prose h2 {
-  font-size: 1.3rem;
-  font-weight: bold;
-  margin-top: 2rem;
+  font-size: 1.35rem;
+  font-weight: 700;
+  margin-top: 2.2rem;
   margin-bottom: 0.5rem;
 }
 
 .prose h2 a {
-  color: #000;
+  color: #111;
   text-decoration: none;
 }
 
@@ -168,21 +164,21 @@ a:visited {
 }
 
 .prose code {
-  font-family: 'Ubuntu Mono', monospace;
-  font-size: 0.9em;
-  background: #f4f4f4;
-  padding: 0.1em 0.35em;
+  font-family: 'SF Mono', 'Fira Code', 'Fira Mono', Menlo, Consolas, monospace;
+  font-size: 0.88em;
+  background: #f5f5f5;
+  padding: 0.15em 0.4em;
   border-radius: 3px;
 }
 
 .prose pre {
-  background: #2d2d2d;
+  background: #2b2b2b;
   color: #f8f8f2;
   padding: 1rem 1.2rem;
   border-radius: 4px;
   overflow-x: auto;
   margin: 1.2rem 0;
-  font-size: 0.88rem;
+  font-size: 0.85rem;
   line-height: 1.5;
 }
 
@@ -198,14 +194,15 @@ a:visited {
 }
 
 .prose a {
-  color: #0074D9;
+  color: #1a0dab;
   text-decoration: underline;
 }
 
 .post-date-long {
-  font-weight: bold;
   font-size: 0.95rem;
-  margin-bottom: 1.2rem;
+  color: #555;
+  margin-bottom: 1.5rem;
+  font-style: italic;
 }
 
 .back-link {
@@ -216,15 +213,15 @@ a:visited {
 
 @media (max-width: 480px) {
   html {
-    font-size: 19px;
+    font-size: 17px;
   }
 
   .site {
-    padding: 1rem 1.2rem 2rem;
+    padding: 1.5rem 1.2rem 2rem;
   }
 
-  .logo-text {
-    font-size: 1.8rem;
+  .site-title {
+    font-size: 1.2rem;
   }
 }
 </style>

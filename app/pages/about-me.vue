@@ -1,5 +1,5 @@
 <script setup lang="ts">
-useHead({ title: 'slice of life blog | About Me' })
+useHead({ title: 'Philip Lambok | About Me' })
 
 const { data: page } = await useAsyncData('about', () => {
   return queryCollection('content').path('/about-me').first()

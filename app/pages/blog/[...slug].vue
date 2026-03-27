@@ -10,12 +10,11 @@ if (!post.value) {
   throw createError({ statusCode: 404, statusMessage: 'Post not found', fatal: true })
 }
 
-useHead({ title: `slice of life blog | ${post.value.title}` })
+useHead({ title: `Philip Lambok | ${post.value.title}` })
 
 function formatDate(dateStr: string) {
   const d = new Date(dateStr + 'T00:00:00')
   return d.toLocaleDateString('en-US', {
-    weekday: 'long',
     year: 'numeric',
     month: 'long',
     day: 'numeric',

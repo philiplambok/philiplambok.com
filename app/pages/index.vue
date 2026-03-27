@@ -1,5 +1,5 @@
 <script setup lang="ts">
-useHead({ title: 'slice of life blog | Blog' })
+useHead({ title: 'Philip Lambok | Blog' })
 
 const { data: posts } = await useAsyncData('blog-posts', () => {
   return queryCollection('blog').order('date', 'DESC').all()
@@ -8,33 +8,31 @@ const { data: posts } = await useAsyncData('blog-posts', () => {
 
 <template>
   <div class="blog-list">
-    <ul class="post-list">
-      <li v-for="post in posts" :key="post.path">
-        {{ post.date }}: <NuxtLink :to="post.path">{{ post.title }}</NuxtLink>
-      </li>
-    </ul>
+    <div v-for="post in posts" :key="post.path" class="post-item">
+      <span class="post-date">{{ post.date }}:</span>
+      <NuxtLink :to="post.path" class="post-link">{{ post.title }}</NuxtLink>
+    </div>
 
     <p v-if="!posts?.length" class="empty">No posts yet.</p>
   </div>
 </template>
 
 <style scoped>
-.intro {
-  margin-bottom: 1.5rem;
+.post-item {
+  margin-bottom: 0.5rem;
   line-height: 1.6;
 }
 
-.post-list {
-  padding-left: 2rem;
+.post-date {
+  font-variant-numeric: tabular-nums;
 }
 
-.post-list li {
-  margin-bottom: 0.65rem;
-  line-height: 1.5;
+.post-link {
+  color: #1a0dab;
 }
 
 .empty {
-  color: #666;
+  color: #777;
   font-style: italic;
 }
 </style>
