@@ -3,16 +3,16 @@ title: about me
 ---
 
 
-Hello, welcome to my blog!
+Hi, I’m Philip.
 
-I’m Philip Lambok, and here are a few random things about me:
+I like programming. My first exposure to it was in high school, when I built my first blog using [Blogger](https://www.blogger.com/about/?bpli=1). Back then, I was actually more excited about designing the blog than writing posts for it. Because I found programming fun, I studied computer science in college.
 
-- I like writing. 
-- Before buying the philiplambok.com domain, I wrote on [GitHub Pages](https://philiplambok.github.io/).
-- I believe in [Leslie Lamport’s](https://www.youtube.com/watch?v=-4Yp3j_jk8Q&t=185s) idea: “To think, you have to write. If you’re thinking without writing, you only think you’re thinking.” 
-- I work as a software engineer.
-- I started blogging in high school using [Blogger](https://www.blogger.com) because I didn’t know how to build my own website. That’s one of the reasons I studied computer science in college: I wanted to create a website for myself. After working professionally as a software engineer for 7 years, I’ve achieved that dream.
-- In my free time, I read books. I track my reading on [Goodreads](https://www.goodreads.com/user/show/43867310-philip-lambok).
-- I’m a citizen of the world, and I’m a Christian.
+After graduating in 2019, I started working as a software programmer, and I’ve been doing that ever since.
 
-Thank you for reading.
+In my free time, I’ve also learned to enjoy writing. I started blogging on [GitHub Pages](https://philiplambok.github.io/) in 2019, around the time I got my first job, but I stopped in 2023. Now, I want to start again.
+
+This time, I chose not to use GitHub Pages. I bought philiplambok.com and hosted it myself. Having a personal blog with my own name as the domain was a dream of mine back in high school. So after working as a software programmer for 7 years, I’m happy to finally make that dream come true.
+
+Besides writing, I also enjoy reading books. I track the books I read on [Goodreads](https://www.goodreads.com/user/show/43867310-philip-lambok).
+
+Thank you for visiting.
