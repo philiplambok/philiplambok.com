@@ -41,7 +41,7 @@ There are six tips:
 
 - If you are wrong, admit it.
 
-- Start in a friendly way.
+- Start the conversation in a kind and friendly way.
 
 - Let ideas feel like they come from them.
 
