@@ -4,7 +4,7 @@ date: "2026-03-14"
 description: "My notes on reading the How to win friends book"
 ---
 
-How to Win Friends & Influence People was a classic book written by Dale Carnegie. I want to share my notes that I wrote while reading the book.
+[How to Win Friends & Influence People](https://www.goodreads.com/book/show/4865.How_to_Win_Friends_Influence_People) was a classic book written by Dale Carnegie. I want to share my notes that I wrote while reading the book.
 
 He separated the book into four parts:
 1. Tips to deal with people.
